@@ -70,6 +70,7 @@ def get_ensembl_seq_by_gene(
                 break
         except Exception as ex:
             raise RuntimeError(f'Ensembl API request error.\n{ex}')
+            return res
         print(f'{i} - {req_url}')
 
     return res
