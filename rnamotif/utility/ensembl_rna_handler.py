@@ -23,7 +23,6 @@ def save_one_fasta_from_ensembl_api_return(fileloc, filename, ensembl_res):
 
     return True
 
-
 if __name__ == "__main__":
     fileloc = os.path.abspath(r'../../samples')
     filename = 'sample1.fasta'
